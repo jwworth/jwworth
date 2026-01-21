@@ -1,0 +1,119 @@
+name: Fetch latest posts
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every day at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with latest posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch feeds and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          git clone --depth 1 \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            repo
+          cd repo
+
+          python3 <<'PY'
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
+          from pathlib import Path
+
+          README = Path("README.md")
+          MAX_POSTS = 3
+          USER_AGENT = "jwworth-readme-updater"
+
+          SECTIONS = [
+              {
+                  "feed_url": "https://www.jakeworth.com/posts/index.xml",
+                  "start": "<!-- BLOG-POST-LIST:START -->",
+                  "end": "<!-- BLOG-POST-LIST:END -->",
+                  "label": "blog posts",
+              },
+              {
+                  "feed_url": "https://www.jakeworth.com/tils/index.xml",
+                  "start": "<!-- TIL-LIST:START -->",
+                  "end": "<!-- TIL-LIST:END -->",
+                  "label": "TILs",
+              },
+          ]
+
+
+          def fetch_items(feed_url: str) -> list[str]:
+              request = urllib.request.Request(
+                  feed_url,
+                  headers={"User-Agent": USER_AGENT},
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  feed = response.read()
+
+              root = ET.fromstring(feed)
+              items = root.findall("./channel/item")[:MAX_POSTS]
+              if len(items) < 1:
+                  raise SystemExit(f"No posts found in RSS feed: {feed_url}")
+
+              lines = []
+              for item in items:
+                  title = (item.findtext("title") or "").strip()
+                  link = (item.findtext("link") or "").strip()
+                  pub_date = (item.findtext("pubDate") or "").strip()
+                  if not title or not link or not pub_date:
+                      raise SystemExit(
+                          f"Feed item missing title, link, or pubDate: {feed_url}"
+                      )
+                  date = parsedate_to_datetime(pub_date).strftime("%B %-d, %Y")
+                  lines.append(f"- [{title}]({link}) - {date}")
+              return lines
+
+
+          def replace_section(readme: str, start: str, end: str, lines: list[str]) -> str:
+              block = "\n".join([start, *lines, end])
+              pattern = re.compile(
+                  re.escape(start) + r".*?" + re.escape(end),
+                  re.DOTALL,
+              )
+              if not pattern.search(readme):
+                  raise SystemExit(f"README markers not found: {start}")
+              return pattern.sub(block, readme)
+
+
+          readme = README.read_text(encoding="utf-8")
+          original = readme
+
+          for section in SECTIONS:
+              lines = fetch_items(section["feed_url"])
+              readme = replace_section(
+                  readme, section["start"], section["end"], lines
+              )
+              print(f"Updated {section['label']}")
+
+          if readme == original:
+              print("README already up to date")
+          else:
+              README.write_text(readme, encoding="utf-8")
+              print("README written")
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "Update latest posts in README"
+          git push
