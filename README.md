@@ -34,7 +34,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Don't Use npm init on an Existing Project](https://jakeworth.com/tils/dont-use-npm-init-on-an-existing-project/) - August 25, 2026
 - [Open Source Icons via Lucite](https://jakeworth.com/tils/open-source-icons-via-lucite/) - August 23, 2026
 - [Open Vim Readonly](https://jakeworth.com/tils/open-vim-readonly/) - August 23, 2026
-- [If/Else in CSS](https://jakeworth.com/tils/if-else-in-css/) - August 20, 2026
 <!-- TIL-LIST:END -->
