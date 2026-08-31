@@ -1,4 +1,4 @@
-Hi, I'm **Jake.**
+Hi, I'm **Jake.** 👋
 
 I'm a senior software engineer and engineering leader with over a decade of
 experience building and shipping production systems with React, Ruby, Elixir,
