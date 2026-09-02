@@ -34,7 +34,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [tsc watch script](https://jakeworth.com/tils/tsc-watch-script/) - September 1, 2026
 - [Read lpr Configuration](https://jakeworth.com/tils/read-lpr-configuration/) - August 31, 2026
 - [Hugo Markdown-Reading Shortcode](https://jakeworth.com/tils/hugo-markdown-reading-shortcode/) - August 31, 2026
-- [Don't Use npm init on an Existing Project](https://jakeworth.com/tils/dont-use-npm-init-on-an-existing-project/) - August 25, 2026
 <!-- TIL-LIST:END -->
