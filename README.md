@@ -34,7 +34,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Call a Git Hook on Demand](https://jakeworth.com/tils/call-a-git-hook-on-demand/) - September 4, 2026
 - [Link to Local Package With npm link](https://jakeworth.com/tils/link-to-local-package-with-npm-link/) - September 2, 2026
 - [tsc watch script](https://jakeworth.com/tils/tsc-watch-script/) - September 1, 2026
-- [Read lpr Configuration](https://jakeworth.com/tils/read-lpr-configuration/) - August 31, 2026
 <!-- TIL-LIST:END -->
