@@ -46,9 +46,9 @@ The best way to contact me is via email:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
+- [What blog posts influenced your thinking the most?](https://jakeworth.com/posts/what-blog-posts-influenced-your-thinking/) - September 15, 2026
 - [How To Get an Interview When You Don't Know Anybody](https://jakeworth.com/posts/how-to-get-an-interview/) - September 14, 2026
 - [Building a Pitchfork-Style Loading Skeleton](https://jakeworth.com/posts/pitchfork-style-skeleton/) - September 2, 2026
-- [Favorite TypeScript Learnings from TypeNotes](https://jakeworth.com/posts/favorite-typescript-learnings-from-typenotes/) - August 24, 2026
 <!-- BLOG-POST-LIST:END -->
 
 TILs:
