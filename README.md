@@ -49,25 +49,15 @@ profiles:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
-
-- [What blog posts influenced your thinking the most?](https://jakeworth.com/posts/what-blog-posts-influenced-your-thinking/) -
-  September 15, 2026
-- [How To Get an Interview When You Don't Know Anybody](https://jakeworth.com/posts/how-to-get-an-interview/) -
-  September 14, 2026
-- [Building a Pitchfork-Style Loading Skeleton](https://jakeworth.com/posts/pitchfork-style-skeleton/) -
-  September 2, 2026
-
+- [What blog posts influenced your thinking the most?](https://jakeworth.com/posts/what-blog-posts-influenced-your-thinking/) - September 15, 2026
+- [How To Get an Interview When You Don't Know Anybody](https://jakeworth.com/posts/how-to-get-an-interview/) - September 14, 2026
+- [Building a Pitchfork-Style Loading Skeleton](https://jakeworth.com/posts/pitchfork-style-skeleton/) - September 2, 2026
 <!-- BLOG-POST-LIST:END -->
 
 TILs:
 
 <!-- TIL-LIST:START -->
-
-- [Simplified Technical English in my Writing](https://jakeworth.com/tils/simplified-technical-english-in-my-writing/) -
-  September 10, 2026
-- [toString can be set in JavaScript](https://jakeworth.com/tils/to-string-can-be-set-in-javascript/) -
-  September 9, 2026
-- [Read Node's Process Versions](https://jakeworth.com/tils/read-nodes-process-versions/) -
-  September 9, 2026
-
+- [Enable Markdown Syntax Highlighting in Fenced Code Blocks](https://jakeworth.com/tils/enable-markdown-syntax-highlighting-in-fenced-code-blocks/) - September 21, 2026
+- [Simplified Technical English in my Writing](https://jakeworth.com/tils/simplified-technical-english-in-my-writing/) - September 10, 2026
+- [toString can be set in JavaScript](https://jakeworth.com/tils/to-string-can-be-set-in-javascript/) - September 9, 2026
 <!-- TIL-LIST:END -->
