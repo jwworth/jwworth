@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Writing Math.max in JavaScript](https://jakeworth.com/tils/writing-math-max-in-javascript/) - September 27, 2026
 - [JavaScripting on main()](https://jakeworth.com/tils/javascripting-on-main/) - September 23, 2026
 - [Enable Markdown Syntax Highlighting in Fenced Code Blocks](https://jakeworth.com/tils/enable-markdown-syntax-highlighting-in-fenced-code-blocks/) - September 21, 2026
-- [Simplified Technical English in my Writing](https://jakeworth.com/tils/simplified-technical-english-in-my-writing/) - September 10, 2026
 <!-- TIL-LIST:END -->
