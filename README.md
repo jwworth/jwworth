@@ -49,9 +49,9 @@ profiles:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
+- [Recovering from a Software Engineering Mistake](https://jakeworth.com/posts/recovering-from-a-software-engineering-mistake/) - September 29, 2026
 - [On "Invisible" Software Engineers](https://jakeworth.com/posts/on-invisible-software-engineers/) - September 23, 2026
 - [What blog posts influenced your thinking the most?](https://jakeworth.com/posts/what-blog-posts-influenced-your-thinking/) - September 15, 2026
-- [How To Get an Interview When You Don't Know Anybody](https://jakeworth.com/posts/how-to-get-an-interview/) - September 14, 2026
 <!-- BLOG-POST-LIST:END -->
 
 TILs:
