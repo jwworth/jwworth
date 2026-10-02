@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Comma Operator Return in JavaScript](https://jakeworth.com/tils/comma-operator-return-in-javascript/) - October 1, 2026
 - [Writing Math.max in JavaScript](https://jakeworth.com/tils/writing-math-max-in-javascript/) - September 27, 2026
 - [JavaScripting on main()](https://jakeworth.com/tils/javascripting-on-main/) - September 23, 2026
-- [Enable Markdown Syntax Highlighting in Fenced Code Blocks](https://jakeworth.com/tils/enable-markdown-syntax-highlighting-in-fenced-code-blocks/) - September 21, 2026
 <!-- TIL-LIST:END -->
