@@ -49,7 +49,7 @@ profiles:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
-- [Black Box for a Reason](https://jakeworth.com/posts/black-box-for-a-reason/) - October 14, 2026
+- [The Black Box Resists Expertise](https://jakeworth.com/posts/black-box-for-a-reason/) - October 14, 2026
 - [Recovering from a Software Engineering Mistake](https://jakeworth.com/posts/recovering-from-a-software-engineering-mistake/) - September 29, 2026
 - [On "Invisible" Software Engineers](https://jakeworth.com/posts/on-invisible-software-engineers/) - September 23, 2026
 <!-- BLOG-POST-LIST:END -->
@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Node Evaluate String](https://jakeworth.com/tils/node-evaluate-string/) - October 19, 2026
 - [Comma Operator Return in JavaScript](https://jakeworth.com/tils/comma-operator-return-in-javascript/) - October 1, 2026
 - [Writing Math.max in JavaScript](https://jakeworth.com/tils/writing-math-max-in-javascript/) - September 27, 2026
-- [JavaScripting on main()](https://jakeworth.com/tils/javascripting-on-main/) - September 23, 2026
 <!-- TIL-LIST:END -->
