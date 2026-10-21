@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Inspect Node Scripts With npm run](https://jakeworth.com/tils/inspect-node-scripts-with-npm-run/) - October 20, 2026
 - [Node Evaluate String](https://jakeworth.com/tils/node-evaluate-string/) - October 19, 2026
 - [Comma Operator Return in JavaScript](https://jakeworth.com/tils/comma-operator-return-in-javascript/) - October 1, 2026
-- [Writing Math.max in JavaScript](https://jakeworth.com/tils/writing-math-max-in-javascript/) - September 27, 2026
 <!-- TIL-LIST:END -->
