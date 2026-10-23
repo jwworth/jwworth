@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Sudo is "Superuser Do"](https://jakeworth.com/tils/sudo-is-su-do/) - October 22, 2026
 - [Reloading Zsh](https://jakeworth.com/tils/reload-zsh/) - October 21, 2026
 - [Inspect Node Scripts With npm run](https://jakeworth.com/tils/inspect-node-scripts-with-npm-run/) - October 20, 2026
-- [Node Evaluate String](https://jakeworth.com/tils/node-evaluate-string/) - October 19, 2026
 <!-- TIL-LIST:END -->
