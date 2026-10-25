@@ -49,15 +49,15 @@ profiles:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
+- [Thoughts on Microsoft Teams](https://jakeworth.com/posts/thoughts-on-microsoft-teams/) - October 24, 2026
 - [The Black Box Resists Expertise](https://jakeworth.com/posts/black-box-for-a-reason/) - October 14, 2026
 - [Recovering from a Software Engineering Mistake](https://jakeworth.com/posts/recovering-from-a-software-engineering-mistake/) - September 29, 2026
-- [On "Invisible" Software Engineers](https://jakeworth.com/posts/on-invisible-software-engineers/) - September 23, 2026
 <!-- BLOG-POST-LIST:END -->
 
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Dropping Images into Keynote](https://jakeworth.com/tils/dropping-images-into-keynote/) - October 24, 2026
 - [Sudo is "Superuser Do"](https://jakeworth.com/tils/sudo-is-su-do/) - October 22, 2026
 - [Reloading Zsh](https://jakeworth.com/tils/reload-zsh/) - October 21, 2026
-- [Inspect Node Scripts With npm run](https://jakeworth.com/tils/inspect-node-scripts-with-npm-run/) - October 20, 2026
 <!-- TIL-LIST:END -->
