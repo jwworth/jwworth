@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Gradle Test Continuous](https://jakeworth.com/tils/gradle-test-continuous/) - October 25, 2026
 - [Dropping Images into Keynote](https://jakeworth.com/tils/dropping-images-into-keynote/) - October 24, 2026
 - [Sudo is "Superuser Do"](https://jakeworth.com/tils/sudo-is-su-do/) - October 22, 2026
-- [Reloading Zsh](https://jakeworth.com/tils/reload-zsh/) - October 21, 2026
 <!-- TIL-LIST:END -->
