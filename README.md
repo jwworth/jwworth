@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Disabling Paste Doesn't Prevent Text Entry](https://jakeworth.com/tils/disabling-paste-doesnt-prevent-text-entry/) - October 27, 2026
 - [Gradle Test Continuous](https://jakeworth.com/tils/gradle-test-continuous/) - October 25, 2026
 - [Dropping Images into Keynote](https://jakeworth.com/tils/dropping-images-into-keynote/) - October 24, 2026
-- [Sudo is "Superuser Do"](https://jakeworth.com/tils/sudo-is-su-do/) - October 22, 2026
 <!-- TIL-LIST:END -->
