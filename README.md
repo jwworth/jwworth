@@ -57,7 +57,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Make Videos Play at Any Speed](https://jakeworth.com/tils/make-videos-play-at-any-speed/) - October 28, 2026
 - [Disabling Paste Doesn't Prevent Text Entry](https://jakeworth.com/tils/disabling-paste-doesnt-prevent-text-entry/) - October 27, 2026
 - [Gradle Test Continuous](https://jakeworth.com/tils/gradle-test-continuous/) - October 25, 2026
-- [Dropping Images into Keynote](https://jakeworth.com/tils/dropping-images-into-keynote/) - October 24, 2026
 <!-- TIL-LIST:END -->
