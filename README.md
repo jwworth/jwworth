@@ -58,7 +58,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Programming "Zero" in Strudel](https://jakeworth.com/tils/programming-zero-in-strudel/) - November 12, 2026
 - [Alias a Function in JavaScript](https://jakeworth.com/tils/alias-a-function-in-javascript/) - November 6, 2026
 - [Dash for Pairing](https://jakeworth.com/tils/dash-for-pairing/) - October 29, 2026
-- [Make Videos Play at Any Speed](https://jakeworth.com/tils/make-videos-play-at-any-speed/) - October 28, 2026
 <!-- TIL-LIST:END -->
