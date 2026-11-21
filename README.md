@@ -58,7 +58,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
-- [Programming "Zero" in Strudel](https://jakeworth.com/tils/programming-zero-in-strudel/) - November 12, 2026
-- [Alias a Function in JavaScript](https://jakeworth.com/tils/alias-a-function-in-javascript/) - November 6, 2026
-- [Dash for Pairing](https://jakeworth.com/tils/dash-for-pairing/) - October 29, 2026
+- [Kill Tmux Session From Session Tree](https://jakeworth.com/tils/kill-tmux-session-from-session-tree/) - November 20, 2026
+- [Serving With Vercel's Serve](https://jakeworth.com/tils/serving-with-vercels-serve/) - November 20, 2026
+- [First Letter Capitalization with CSS](https://jakeworth.com/tils/sentence-style-capitalization-with-css/) - November 20, 2026
 <!-- TIL-LIST:END -->
