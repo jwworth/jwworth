@@ -50,9 +50,9 @@ profiles:
 
 Blog posts:
 <!-- BLOG-POST-LIST:START -->
+- [Prompts for Blogvent](https://jakeworth.com/posts/prompts-for-blogvent/) - November 23, 2026
 - [Thoughts on Microsoft Teams](https://jakeworth.com/posts/thoughts-on-microsoft-teams/) - October 24, 2026
 - [The Black Box Resists Expertise](https://jakeworth.com/posts/black-box-for-a-reason/) - October 14, 2026
-- [Recovering from a Software Engineering Mistake](https://jakeworth.com/posts/recovering-from-a-software-engineering-mistake/) - September 29, 2026
 <!-- BLOG-POST-LIST:END -->
 
 TILs:
