@@ -58,7 +58,7 @@ Blog posts:
 TILs:
 
 <!-- TIL-LIST:START -->
+- [Building With a Product Markdown File](https://jakeworth.com/tils/building-with-a-product-markdown-file/) - November 25, 2026
 - [Kill Tmux Session From Session Tree](https://jakeworth.com/tils/kill-tmux-session-from-session-tree/) - November 20, 2026
 - [Serving With Vercel's Serve](https://jakeworth.com/tils/serving-with-vercels-serve/) - November 20, 2026
-- [First Letter Capitalization with CSS](https://jakeworth.com/tils/sentence-style-capitalization-with-css/) - November 20, 2026
 <!-- TIL-LIST:END -->
